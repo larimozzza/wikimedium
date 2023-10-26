@@ -1,0 +1,586 @@
+html {
+    background: black;
+    display: block;
+    height: 100%;
+}
+@font-face {
+    font-family: Halvar Breitschrift_Bold;
+    src: url('fonts/HalvarBreit-Bd.ttf');
+}
+@font-face {
+    font-family: Halvar Breitschrift_Black;
+    src: url('fonts/HalvarBreit-Blk.ttf');
+}
+@font-face {
+    font-family: Halvar Breitschrift_Regular;
+    src: url('fonts/HalvarBreit-Rg.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_ExtraThin;
+    src: url('fonts/HalvarBreit-XTh.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_ExtraBold;
+    src: url('fonts/HalvarBreit-XBd.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Hairline;
+    src: url('fonts/HalvarBreit-Hl.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Light;
+    src: url('fonts/HalvarBreit-Lt.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Medium;
+    src: url('fonts/HalvarBreit-Md.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Thin;
+    src: url('fonts/HalvarBreit-Th.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Bold_Slanted;
+    src: url('fonts/HalvarBreit-BdSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Bold_SuperSlanted;
+    src: url('fonts/HalvarBreit-BdSuSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Black_Slanted;
+    src: url('fonts/HalvarBreit-BlkSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Black_SuperSlanted;
+    src: url('fonts/HalvarBreit-BlkSuSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Hairline_Slanted;
+    src: url('fonts/HalvarBreit-HlSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Hairline_SuperSlanted;
+    src: url('fonts/HalvarBreit-HlSuSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Light_Slanted;
+    src: url('fonts/HalvarBreit-LtSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Light_SuperSlanted;
+    src: url('fonts/HalvarBreit-LtSuSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Medium_Slanted;
+    src: url('fonts/HalvarBreit-MdSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Medium_SuperSlanted;
+    src: url('fonts/HalvarBreit-MdSuSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Regular_Slanted;
+    src: url('fonts/HalvarBreit-RgSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Regular_SuperSlanted;
+    src: url('fonts/HalvarBreit-RgSuSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Thin_Slanted;
+    src: url('fonts/HalvarBreit-ThSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_Thin_SuperSlanted;
+    src: url('fonts/HalvarBreit-ThSuSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_ExtraBold_Slanted;
+    src: url('fonts/HalvarBreit-XBdSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_ExtraBold_SuperSlanted;
+    src: url('fonts/HalvarBreit-XBdSuSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_ExtraThin_Slanted;
+    src: url('fonts/HalvarBreit-XThSlanted.ttf')
+}
+@font-face {
+    font-family: Halvar Breitschrift_ExtraThin_SuperSlanted;
+    src: url('fonts/HalvarBreit-XThSuSlanted.ttf')
+}
+
+
+#cover {
+    height: 837.92px;
+    width:1440px;
+    position: relative;
+    background: white;
+    margin: 0 auto;
+}
+.стройка {
+    position: absolute;
+    left: 1px;
+}
+.качает {
+    position: absolute;
+    right: 2px;
+    bottom: -21px;
+}
+.title {
+    font-family: Halvar Breitschrift_Bold;
+    font-size: 134.22px;
+    position: absolute;
+    margin-left: 416px;
+    margin-top: 28px;
+    transform: rotate(344deg);
+}
+.subtitle {
+    font-family: Halvar Breitschrift_Black;
+    position: absolute;
+    font-size: 38.35px;
+    margin-left: 868px;
+    margin-top: 156px;
+    transform: rotate(344deg);
+}
+#road {
+    height: 1102.53px;
+    width:1440px;
+    position: relative;
+    background: black;
+    margin: 0 auto;
+}
+section:nth-of-type(2) img:nth-of-type(1) {
+    position: absolute;
+    margin-top: 457px;
+}
+section:nth-of-type(2) img:nth-of-type(2) {
+    position: absolute;
+    margin-top: 446px;
+    margin-left: 65px;
+}
+section:nth-of-type(2) img:nth-of-type(3) {
+    position: absolute;
+    margin-top: 262px;
+    margin-left: 932px;
+}
+section:nth-of-type(2) div:nth-of-type(1) {
+    font-family: Halvar Breitschrift_Regular;
+    position: absolute;
+    color: white;
+    font-size: 55.61px;
+    margin-left: 120px;
+    margin-top: 69px;
+}
+section:nth-of-type(2) div:nth-of-type(2) {
+    font-family: Halvar Breitschrift_Regular;
+    width: 715.21px;
+    height: 256.59px;
+    line-height: 1.2;
+    position: absolute;
+    color: white;
+    font-size: 36.43px;
+    margin-left: 124px;
+    margin-top: 166px
+}
+#languages {
+    display: flex;
+    height: 1062.26px;
+    width:1440px;
+    background: black;
+    margin: 0 auto;
+}  
+section:nth-of-type(3) img {
+    position: absolute;
+    margin-top: 342px;
+    margin-left: 109px;
+}
+section:nth-of-type(3) p {
+    font-family: Halvar Breitschrift_Regular;
+    width: 883.94px;
+    height: 195.58px;
+    line-height: 1.2;
+    position: absolute;
+    color: white;
+    font-size: 36.43px;
+    margin-left: 446px;
+    margin-top: -31px;
+}
+#Halvar {
+    height: 994.56px;
+    width:1440px;
+    position: relative;
+    background: black;
+    margin: 0 auto;
+}
+section:nth-of-type(4) img:nth-of-type(1) {
+    position: absolute;
+    margin-top: -65px;
+}
+section:nth-of-type(4) img:nth-of-type(2) {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 18px;
+}
+section:nth-of-type(4) p:nth-of-type(1){
+    font-family: Halvar Breitschrift_ExtraThin;
+    position: absolute;
+    color: white;
+    font-size: 92.16px;
+    margin-left: 277px;
+    margin-top: 337px;
+}
+section:nth-of-type(4) p:nth-of-type(2){
+    font-family: Halvar Breitschrift_ExtraThin;
+    position: absolute;
+    color: white;
+    font-size: 92.16px;
+    margin-left: 498px;
+    margin-top: 412px;
+}
+section:nth-of-type(4) p:nth-of-type(3){
+    font-family: Halvar Breitschrift_ExtraThin;
+    position: absolute;
+    color: white;
+    font-size: 92.16px;
+    margin-left: 716px;
+    margin-top: 333px;
+}
+section:nth-of-type(4) p:nth-of-type(4){
+    font-family: Halvar Breitschrift_ExtraThin;
+    position: absolute;
+    color: white;
+    font-size: 92.16px;
+    margin-left: 977px;
+    margin-top: 75px;
+}
+section:nth-of-type(4) p:nth-of-type(5){
+    font-family: Halvar Breitschrift_ExtraThin;
+    position: absolute;
+    color: white;
+    font-size: 92.16px;
+    margin-left: 973px;
+    margin-top: 353px;
+}
+section:nth-of-type(4) p:nth-of-type(6){
+    font-family: Halvar Breitschrift_ExtraThin;
+    position: absolute;
+    color: white;
+    font-size: 92.16px;
+    margin-left: 1184px;
+    margin-top: 525px;
+}
+#graph {
+    height: 1025.83px;
+    width:1440px;
+    position: relative;
+    background: white;
+    margin: 0 auto;
+}
+.график {
+    position: absolute;
+    right: 9px;
+    bottom: 46px; 
+}
+section:nth-of-type(5) h1:nth-of-type(1) {
+    font-family: Halvar Breitschrift_ExtraBold ;
+    width: 187.91px;
+    height: 76px;
+    position: absolute;
+    font-size: 32.6px;
+    margin-left: 16px;
+    margin-top: 253px
+}
+section:nth-of-type(5) h1:nth-of-type(2) {
+    font-family: Halvar Breitschrift_Bold;
+    position: absolute;
+    font-size: 32.6px;
+    margin-left: 64px;
+    margin-top: 400px
+}
+section:nth-of-type(5) h1:nth-of-type(3) {
+    font-family: Halvar Breitschrift_Medium;
+    position: absolute;
+    font-size: 32.6px;
+    margin-left: 32px;
+    margin-top: 522px;
+}
+section:nth-of-type(5) h1:nth-of-type(4) {
+    font-family: Halvar Breitschrift_Regular;
+    position: absolute;
+    font-size: 32.6px;
+    margin-left: 34px;
+    margin-top: 600px;
+}
+section:nth-of-type(5) h1:nth-of-type(5) {
+    font-family: Halvar Breitschrift_Light;
+    position: absolute;
+    font-size: 32.6px;
+    margin-left: 59px;
+    margin-top: 694px;
+}
+section:nth-of-type(5) h1:nth-of-type(6) {
+    font-family: Halvar Breitschrift_Thin;
+    position: absolute;
+    font-size: 32.6px;
+    margin-left: 60px;
+    margin-top: 760px;
+}
+section:nth-of-type(5) h1:nth-of-type(7) {
+    font-family: Halvar Breitschrift_ExtraThin;
+    position: absolute;
+    font-size: 32.6px;
+    margin-left: 17px;
+    margin-top: 817px
+}
+section:nth-of-type(5) h1:nth-of-type(8) {
+    font-family: Halvar Breitschrift_Hairline;
+    position: absolute;
+    font-size: 32.6px;
+    margin-left: 39px;
+    margin-top: 866px;
+}
+section:nth-of-type(5) p:nth-of-type(1) {
+    font-family: Halvar Breitschrift_Black;
+    position: absolute;
+    font-size: 80.53px;
+    margin-left: 1133px;
+    margin-top: 226px;
+}
+section:nth-of-type(5) p:nth-of-type(2) {
+    font-family: Halvar Breitschrift_ExtraBold;
+    position: absolute;
+    font-size: 80.53px;
+    margin-left: 627px;
+    margin-top: 228px;
+}
+section:nth-of-type(5) p:nth-of-type(3) {
+    font-family: Halvar Breitschrift_Bold;
+    position: absolute;
+    font-size: 80.53px;
+    margin-left: 1005px;
+    margin-top: 355px;
+}
+section:nth-of-type(5) p:nth-of-type(4) {
+    font-family: Halvar Breitschrift_Medium;
+    position: absolute;
+    font-size: 80.53px;
+    margin-left: 878px;
+    margin-top: 479px;
+}
+section:nth-of-type(5) p:nth-of-type(5) {
+    font-family: Halvar Breitschrift_Regular;
+    position: absolute;
+    font-size: 80.53px;
+    margin-left: 375px;
+    margin-top: 557px;
+}
+section:nth-of-type(5) p:nth-of-type(6) {
+    font-family: Halvar Breitschrift_Light;
+    position: absolute;
+    font-size: 80.53px;
+    margin-left: 1260px;
+    margin-top: 654px;
+}
+section:nth-of-type(5) p:nth-of-type(7) {
+    font-family: Halvar Breitschrift_Thin;
+    position: absolute;
+    font-size: 80.53px;
+    margin-left: 500px;
+    margin-top: 716px;
+}
+section:nth-of-type(5) p:nth-of-type(8) {
+    font-family: Halvar Breitschrift_ExtraThin;
+    position: absolute;
+    font-size: 80.53px;
+    margin-left: 754px;
+    margin-top: 769px;
+}
+section:nth-of-type(5) p:nth-of-type(9) {
+    font-family: Halvar Breitschrift_Hairline;
+    position: absolute;
+    font-size: 80.53px;
+    margin-left: 245px;
+    margin-top: 826px;
+}
+section:nth-of-type(5) p:nth-of-type(10) {
+    font-family: Halvar Breitschrift_Regular;
+    position: absolute;
+    font-size: 55.61px;
+    margin-left: 126px;
+    margin-top: 67px;
+}
+#inclined {
+    height: 1463.01px;
+    width:1440px;
+    position: relative;
+    background: white;
+    margin: 0 auto;
+}
+.огнеопасно {
+    height: 450.42px;
+    width: 1033.85px;
+    line-height: 1.3;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left {
+    width: 315px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    font-size: 46.02px;
+}
+.center {
+    width: 315px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    font-size: 46.02px;
+}
+.right {
+    width: 315px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    font-size: 46.02px;
+}
+.left p:nth-of-type(1) {
+    font-family: Halvar Breitschrift_Hairline_Slanted;
+}
+.left p:nth-of-type(2) {
+    font-family: Halvar Breitschrift_Hairline_SuperSlanted;
+}
+.left p:nth-of-type(3) {
+    font-family: Halvar Breitschrift_ExtraThin_Slanted;
+}
+.left p:nth-of-type(4) {
+    font-family: Halvar Breitschrift_ExtraThin_SuperSlanted;
+}
+.left p:nth-of-type(5) {
+    font-family: Halvar Breitschrift_Thin_Slanted;
+}
+.left p:nth-of-type(6) {
+    font-family: Halvar Breitschrift_Thin_SuperSlanted;
+}
+.center p:nth-of-type(1) {
+    font-family: Halvar Breitschrift_Light_Slanted;
+}
+.center p:nth-of-type(2) {
+    font-family: Halvar Breitschrift_Light_SuperSlanted;
+}
+.center p:nth-of-type(3) {
+    font-family: Halvar Breitschrift_Regular_Slanted;
+}
+.center p:nth-of-type(4) {
+    font-family: Halvar Breitschrift_Regular_SuperSlanted;
+}
+.center p:nth-of-type(5) {
+    font-family: Halvar Breitschrift_Medium_Slanted;
+}
+.center p:nth-of-type(6) {
+    font-family: Halvar Breitschrift_Medium_SuperSlanted;
+}
+.right p:nth-of-type(1) {
+    font-family: Halvar Breitschrift_Bold_Slanted;
+}
+.right p:nth-of-type(2) {
+    font-family: Halvar Breitschrift_Bold_SuperSlanted;
+}
+.right p:nth-of-type(3) {
+    font-family: Halvar Breitschrift_ExtraBold_Slanted;
+}
+.right p:nth-of-type(4) {
+    font-family: Halvar Breitschrift_ExtraBold_SuperSlanted;
+}
+.right p:nth-of-type(5) {
+    font-family: Halvar Breitschrift_Black_Slanted;
+}
+.right p:nth-of-type(6) {
+    font-family: Halvar Breitschrift_Black_SuperSlanted;
+}
+section:nth-of-type(6) img {
+    position: absolute;
+    right: 37px;
+    bottom: 115px;
+}
+.огнеопасно {
+    position: absolute;
+    margin-top: 218px;
+    margin-left: 59px;
+}
+.варианты {
+    font-family: Halvar Breitschrift_Regular;
+    position: absolute;
+    font-size: 55.61px;
+    margin-left: 579px;
+    margin-top: 79px;
+}
+.нефтегаз p:nth-of-type(1) {
+    font-family: Halvar Breitschrift_ExtraBold;
+    position: absolute;
+    color: white;
+    font-size: 143.81px;
+    margin-left: 468px;
+    margin-top: 942px;
+}
+.нефтегаз p:nth-of-type(2) {
+    font-family: Halvar Breitschrift_Bold;
+    position: absolute;
+    color: white;
+    font-size: 143.81px;
+    margin-left: 585px;
+    margin-top: 942px;
+}
+.нефтегаз p:nth-of-type(3) {
+    font-family: Halvar Breitschrift_Medium;
+    position: absolute;
+    color: white;
+    font-size: 143.81px;
+    margin-left: 689px;
+    margin-top: 942px;
+}
+.нефтегаз p:nth-of-type(4) {
+    font-family: Halvar Breitschrift_Regular;
+    position: absolute;
+    color: white;
+    font-size: 143.81px;
+    margin-left: 850px;
+    margin-top: 942px;
+}
+.нефтегаз p:nth-of-type(5) {
+    font-family: Halvar Breitschrift_Light;
+    position: absolute;
+    color: white;
+    font-size: 143.81px;
+    margin-left: 947px;
+    margin-top: 942px;
+}
+.нефтегаз p:nth-of-type(6) {
+    font-family: Halvar Breitschrift_Thin;
+    position: absolute;
+    color: white;
+    font-size: 143.81px;
+    margin-left: 1044px;
+    margin-top: 942px;
+}
+.нефтегаз p:nth-of-type(7) {
+    font-family: Halvar Breitschrift_ExtraThin;
+    position: absolute;
+    color: white;
+    font-size: 143.81px;
+    margin-left: 1132px;
+    margin-top: 942px;
+}
+.нефтегаз p:nth-of-type(8) {
+    font-family: Halvar Breitschrift_Hairline;
+    position: absolute;
+    color: white;
+    font-size: 143.81px;
+    margin-left: 1240px;
+    margin-top: 942px;
+}
