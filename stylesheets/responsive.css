@@ -19,3 +19,22 @@
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) { 
     .sidebar { display: none; }
 }
+@media screen and (max-width: 1279px) {
+    .index-item {
+        width: 740px;
+    }
+}
+@media screen and (max-device-width:767px) and (orientation: portrait){
+    body {
+        background-color: white;
+    }
+    .index-item {
+        width: 100vw;
+        box-shadow: none;
+        border: none;
+    }
+    .index-item img {
+        height: 90vw;
+        width: 94%;
+    }
+}
